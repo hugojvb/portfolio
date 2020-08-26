@@ -1,2 +1,3 @@
 # portfolio
-Template-based Portfolio in Progress
+
+Template-based Portfolio yet to finish.
