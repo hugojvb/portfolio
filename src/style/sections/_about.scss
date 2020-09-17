@@ -49,6 +49,7 @@
 
       &-text {
         text-align: left;
+        line-height: 2;
 
         @include respond(tab-port) {
           text-align: left;
@@ -61,9 +62,9 @@
           background: darken($secondary-color, 1%);
           display: inline-block;
           font-style: italic;
-          padding: 0 0.3rem;
-          margin: 0.3rem 0;
-          line-height: 1.6;
+          padding: 0 1rem;
+          margin: 1rem 0;
+          line-height: 2;
 
           @include respond(phone) {
             display: inline;

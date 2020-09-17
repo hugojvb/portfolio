@@ -19,4 +19,8 @@ $('a[href^="#"]').on("click", function (event) {
 initSr();
 initTilt();
 
-$(window).ready($("#loading").hide());
+function hideLoader() {
+  $("#loading").hide();
+}
+
+$(window).ready(hideLoader);
