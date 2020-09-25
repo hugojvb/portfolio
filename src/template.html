@@ -11,292 +11,256 @@
 -->
 <!DOCTYPE html>
 <html lang="en" id="html">
-  <head>
-    <style>
-      html {
-        visibility: hidden;
-        opacity: 0;
-      }
-    </style>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Hugo Batista | Software Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="Hugo Batista, Javascript, Java" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Hugo Batista | Software Developer" />
+<head>
+  <style>
+    html {
+      visibility: hidden;
+      opacity: 0;
+    }
+  </style>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <link rel="shortcut icon" href="#" />
+  <!-- Put here your site title -->
+  <title>Hugo Batista | Software Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="Hugo Batista, Javascript, Java" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Hugo Batista | Software Developer" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <link rel="shortcut icon" href="#" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="loading"><img src="./assets/loading.gif" alt="loading" /></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <div id="top"></div>
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Olá, sou o <span class="text-color-main">Hugo</span>.
-          <br />
-          E sou Full Stack Developer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Saber Mais</a>
-        </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="loading"><img src="./assets/loading.gif" alt="loading" /></div>
+
+  <div id="top"></div>
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Olá, sou o <span class="text-color-main">Hugo</span>.
+        <br />
+        E sou Full Stack Developer.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Saber Mais</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Sou um Full Stack Developer autodidata com um background em
+              Psicologia.
+            </p>
+            <p class="about-wrapper__info-text">
+              Até à data, desenvolvi vários projetos de raíz e participei em
+              alguns projetos Open Source.
+            </p>
+            <p class="about-wrapper__info-text">
+              Tenho proficiência em Frontend (Javascript, React, Angular),
+              Backend (Java, Node, Express) e Database (MongoDB, MySQL).
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="#projects">
+                Projetos Pessoais
+              </a>
+              <a target="_blank" class="cta-btn cta-btn--resume ml-4" href="#!">
+                Ver CV
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">Sobre Mim</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projetos Pessoais</h2>
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Workout Tracker</h3>
+              <div>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi neque, ipsa animi maiores repellendus distinctio
+                  aperiam earum dolor voluptatum consequatur blanditiis
+                  inventore debitis fuga numquam voluptate ex architecto
+                  itaque molestiae.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                Ver Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="#!">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                Sou um Full Stack Developer autodidata com um background em
-                Psicologia.
-              </p>
-              <p class="about-wrapper__info-text">
-                Até à data, desenvolvi vários projetos de raíz e participei em
-                alguns projetos Open Source.
-              </p>
-              <p class="about-wrapper__info-text">
-                Tenho proficiência em Frontend (Javascript, React, Angular),
-                Backend (Java, Node, Express) e Database (MongoDB, MySQL).
-              </p>
-              <span class="d-flex mt-3">
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="#projects"
-                >
-                  Projetos Pessoais
-                </a>
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--resume ml-4"
-                  href="#!"
-                >
-                  Ver CV
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project.jpg" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
+        <!-- /END Project -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projetos Pessoais</h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Workout Tracker</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  Ver Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Reddit Clone</h3>
+              <div>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi neque, ipsa animi maiores repellendus distinctio
+                  aperiam earum dolor voluptatum consequatur blanditiis
+                  inventore debitis fuga numquam voluptate ex architecto
+                  itaque molestiae.
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                Ver Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="#!">
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Reddit Clone</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project.jpg" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  Ver Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Skill para Alexa</h3>
-                <div>
-                  <p class="mb-4">
-                    Desenvolvi uma skill para Alexa com base no kit sdk para
-                    Java. De modo a programar as respostas da Alexa, usei uma
-                    AWS lambda function. A skill é acessada através da expressão
-                    "lisbon facts" i.e. "Alexa, open lisbon facts", pelo que a
-                    Alexa devolve um facto ou uma curiosidade aleatória sobre
-                    Lisboa.
-                  </p>
-                </div>
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://www.amazon.com/Hugo-Batista-Lisbon-Facts/dp/B08HVNF51H/ref=sr_1_1?dchild=1&keywords=lisbon+facts&qid=1600113652&s=digital-skills&sr=1-1"
-                >
-                  Ver Live
-                </a>
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/hugojvb/alexa-skill"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a
-                  href="https://www.hugojvb.com/assets/alexa2.50326c74ba571382c9885fe4acc1f586.gif"
-                  target="_blank"
-                >
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/alexa2.gif" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
         </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
+        <!-- /END Project -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contacto</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">hugo.j.v.batista@outlook.com</p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:hugo.j.v.batista@outlook.com"
-            >Enviar e-mail</a
-          >
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Skill para Alexa</h3>
+              <div>
+                <p class="mb-4">
+                  Desenvolvi uma skill para Alexa com base no kit sdk para
+                  Java. De modo a programar as respostas da Alexa, usei uma
+                  AWS lambda function. A skill é acessada através da expressão
+                  "lisbon facts" i.e. "Alexa, open lisbon facts", pelo que a
+                  Alexa devolve um facto ou uma curiosidade aleatória sobre
+                  Lisboa.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://www.amazon.com/Hugo-Batista-Lisbon-Facts/dp/B08HVNF51H/ref=sr_1_1?dchild=1&keywords=lisbon+facts&qid=1600113652&s=digital-skills&sr=1-1">
+                Ver Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/hugojvb/alexa-skill">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://www.hugojvb.com/assets/alexa2.50326c74ba571382c9885fe4acc1f586.gif" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/alexa2.gif" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- /END Contact Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contacto</h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">hugo.j.v.batista@outlook.com</p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:hugojvb20@gmail.com">Enviar e-mail</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://www.codewars.com/users/hugojvb" target="_blank">
+          <span class="iconify" data-icon="simple-icons:codewars" data-inline="false"></span>
         </a>
-        <div class="social-links">
-          <a href="https://www.codewars.com/users/hugojvb" target="_blank">
-            <span
-              class="iconify"
-              data-icon="simple-icons:codewars"
-              data-inline="false"
-            ></span>
-          </a>
-          <a href="https://www.linkedin.com/in/hugojvb" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/hugojvb" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-          <a href="https://leetcode.com/hugojvb/" target="_blank">
-            <span
-              class="iconify"
-              data-icon="cib:leetcode"
-              data-inline="false"
-            ></span>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
+        <a href="https://www.linkedin.com/in/hugojvb" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/hugojvb" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+        <a href="https://leetcode.com/hugojvb/" target="_blank">
+          <span class="iconify" data-icon="cib:leetcode" data-inline="false"></span>
+        </a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-    <script src="https://code.iconify.design/2/2.0.0-beta.6/iconify.min.js"></script>
-  </body>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+
+      <!-- Remove this paragraph once you setup your custom portfolio -->
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+  <script src="https://code.iconify.design/2/2.0.0-beta.6/iconify.min.js"></script>
+</body>
+
 </html>
