@@ -8,10 +8,10 @@ module.exports = {
     rules: [
       {
         test: /\.html$/,
-        use: ["html-loader"],
+        use: "html-loader",
       },
       {
-        test: /\.(jpg|jpeg|png|gif|svg|pdf|webm|mp4)$/,
+        test: /\.(jpg|jpeg|png|gif|svg|pdf|webm|mp4)$/i,
         use: [
           {
             loader: "file-loader",
