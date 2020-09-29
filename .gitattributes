@@ -1,2 +1,4 @@
 *.webm filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+fitbit.mp4 filter=lfs diff=lfs merge=lfs -text
+alexa.mp4 filter=lfs diff=lfs merge=lfs -text
