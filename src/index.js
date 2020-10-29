@@ -5,6 +5,7 @@ import "./style/main.scss";
 import fitbit from "./assets/fitbit3.mp4";
 import alexa from "./assets/alexa.mp4";
 import cv from "./assets/CV.pdf";
+import expense from "./assets/expensetracker.webm";
 
 $('a[href^="#"]').on("click", function (event) {
   var target = $(this.getAttribute("href"));
